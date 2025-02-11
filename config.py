@@ -10,7 +10,7 @@ ADMINS = int(environ.get("ADMINS", "7195990500"))
 
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_URI = environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_NAME = environ.get("DB_NAME", "inflixjoinrequetbot")
+DB_NAME = environ.get("DB_NAME", "vjjoinrequetbot")
 
 # If this is True Then Bot Accept New Join Request 
 NEW_REQ_MODE = bool(environ.get('NEW_REQ_MODE', True))
